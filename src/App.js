@@ -69,7 +69,7 @@ function App() {
   };
 
   const handlePersonalInfoClick = (e) => {
-    /* e.preventDefault();
+    e.preventDefault();
     const numberErrorId = document.getElementById("numbererror");
     const emailErrorId = document.getElementById("emailerror");
     const nameError = document.getElementById("nameerror");
@@ -99,17 +99,16 @@ function App() {
     } else {
       numberErrorId.classList.add("hidden");
     }
-    */
 
-    // if (
-    // refName.current.value != "" &&
-    //refEmail.current.value != "" &&
-    //isEmail(refEmail.current.value) &&
-    //refNumber.current.value != "" &&
-    //isNumber(refNumber.current.value)
-    //) {
-    SetFormStep((cur) => cur + 1);
-    //}
+    if (
+      refName.current.value != "" &&
+      refEmail.current.value != "" &&
+      isEmail(refEmail.current.value) &&
+      refNumber.current.value != "" &&
+      isNumber(refNumber.current.value)
+    ) {
+      SetFormStep((cur) => cur + 1);
+    }
   };
 
   const isEmail = () => {
