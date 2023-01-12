@@ -1,0 +1,9 @@
+#toggle-switch::after{
+    content:'';
+    @apply h-3 w-3 mt-1 ml-1 rounded-full bg-white absolute transform  transition duration-200;
+  }
+
+
+  #toggle-switch:checked::after{
+      @apply transform translate-x-4;
+  }
