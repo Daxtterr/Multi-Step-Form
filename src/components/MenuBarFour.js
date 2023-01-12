@@ -2,7 +2,7 @@ import React from "react";
 
 const MenuBarFour = () => {
   return (
-    <div className=" pt-10 lg:pt-auto h-40 lg:h-auto space-x-4 justify-center lg:justify-start lg:space-x-0 bg-fashionmobile md:bg-fashion flex flex-row lg:flex-col lg:space-y-8 p-4 lg:w-4/12 lg:rounded-md">
+    <div className=" pt-10 lg:pt-auto h-40 lg:h-auto space-x-4 justify-center lg:justify-start lg:space-x-0 bg-fashionmobile bg-no-repeat bg-cover lg:bg-auto md:bg-fashion flex flex-row lg:flex-col lg:space-y-8 p-4 lg:w-4/12 lg:rounded-md">
       <div className="flex space-x-4 lg:items-center ">
         <button className="border-[1px] text-white rounded-full flex items-center h-7 p-2 font-medium">
           1
